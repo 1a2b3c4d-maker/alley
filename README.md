@@ -6,14 +6,15 @@ int main(){
     
     for (int i = 0; i < n-1;i++){
 {   
-    for (int j = 0; j < n-1-i; j++)
+        for (int j = 0; j < n-1-i; j++)
     {
-     if (arr[j] > arr[j+1]）{
-         int t = arr[j];
-         arr[j] = arr[j+1];
-         arr[j+1] = t;
-    }
-}
+        if (arr[j] > arr[j+1]）{
+            int t = arr[j];
+            arr[j] = arr[j+1];
+            arr[j+1] = t;
+        }  
+   }
+}   
 //输出结果
     for(int i = 0; i<10;i++){
         printf("%d\t",arr[i]);
