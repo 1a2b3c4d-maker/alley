@@ -1,3 +1,4 @@
+#include <stdio.h>
 
 int main(){
     int arr[10] = {1,3,5,7,9,13,0,2,8,4};
@@ -7,8 +8,7 @@ int main(){
 {   
     for (int j = 0; j < n-1-i; j++)
     {
-     if (arr[j] > arr[j+1]）
-     {
+     if (arr[j] > arr[j+1]）{
          int t = arr[j];
          arr[j] = arr[j+1];
          arr[j+1] = t;
