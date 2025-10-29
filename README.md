@@ -13,7 +13,7 @@ int main(){
             arr[j] = arr[j+1];
             arr[j+1] = t;
         }  
-   }
+    }
 }   
 //输出结果
     for(int i = 0; i<10;i++){
